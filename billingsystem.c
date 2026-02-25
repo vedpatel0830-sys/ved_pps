@@ -1,26 +1,26 @@
-#include<stdio.h>
+#include <stdio.h>
 int main(void)
 {
-    float Pen=10;
-    float Geometry_Box=100;
-    float Red_Bull=200;
-    float Book=50;
-    float Cheese=150;
+    float Red_Bull=10;
+    float Thums_Up=100;
+    float Sprite=200;
+    float Coke=50;
+    float Fanta=150;
     float a,b,c,d,e;
     printf("\n ************************* Billing System ************************************");
-    printf("\n Pen= %f \n Geometry_Box = %f \n Red_Bull = %f \n Book = %f \n Cheese = %f ", Pen,Geometry_Box,Red_Bull,Book,Cheese);
-    printf("Enter How Many Pen do you want\n");
-    scanf("%f", &a);
-    printf("Enter How Many Geometry_Box do you want\n");
-    scanf("%f", &b);
+    printf("\n Red_Bull= %f \n Thums_up = %f \n Sprite = %f \n Coke = %f \n Fanta = %f ", Red_Bull,Thums_Up,Sprite,Coke,Fanta);
     printf("Enter How Many Red_Bull do you want\n");
+    scanf("%f", &a);
+    printf("Enter How Many Thums_up do you want\n");
+    scanf("%f", &b);
+    printf("Enter How Many Sprite do you want\n");
     scanf("%f", &c);
-    printf("Enter How Many Book do you want\n");
+    printf("Enter How Many Coke do you want\n");
     scanf("%f", &d);
-    printf("Enter How Many Cheese do you want\n");
+    printf("Enter How Many Fanta do you want\n");
     scanf("%f", &e);
     float x;
-    x = (Pen*a) + (Geometry_Box*b) + (Red_Bull*c) + (Book*d) + (Cheese*e);
+    x = (Red_Bull*a) + (Thums_Up*b) + (Sprite*c) + (Coke*d) + (Fanta*e);
     printf("Total is %f\n", x);
     if(x>=5000)
     {
