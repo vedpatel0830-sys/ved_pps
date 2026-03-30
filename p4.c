@@ -14,12 +14,12 @@ int main() {
         printf("5. Exit\n");
         printf("Enter your choice: ");
         
-        // FIX 1: Read the user's choice
+        
         scanf("%d", &choice);
 
         if (choice >= 1 && choice <= 4) {
             printf("Enter a string: ");
-            // FIX 2: Allow reading strings that contain spaces
+           
             scanf(" %[^\n]", str); 
         }
 
